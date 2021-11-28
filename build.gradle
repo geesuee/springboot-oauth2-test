@@ -33,11 +33,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	// 소셜 로그인 등 클라이언트 입장에서 소셜 기능 구현시 필요한 의존성
 
-	implementation 'org.springframework.boot:spring-boot-starter-mustache'
+	implementation ('org.springframework.boot:spring-boot-starter-mustache')
 	// 머스테치 스타터 의존성
-
-	implementation 'org.spingframework.session:spring-session-jdbc'
-	// 세션 저장소로 데이터베이스 사용
 }
 
 test {
