@@ -3,7 +3,6 @@ package com.geesuee.springbootstudy.web;
 import com.geesuee.springbootstudy.config.auth.LoginUser;
 import com.geesuee.springbootstudy.config.auth.dto.SessionUser;
 import com.geesuee.springbootstudy.service.posts.PostsService;
-import com.geesuee.springbootstudy.web.dto.PostsResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
